@@ -14,14 +14,6 @@ p{
   font-family: "Poppins";
 }
 
-/* SEC 1*/
-.Section1 .container{
-  display: flex;
-  align-items: center;
-  /* taille maximale du container*/
-  max-width: 1500px;
-  margin-left: 80px;
-}
 
 .left h1{
   /* 9em = taille de la police*/
@@ -215,3 +207,4 @@ footer > .right{
 padding-top: 5%;
 color: antiquewhite;
 }
+
