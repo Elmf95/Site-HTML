@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1d1e31;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+  font-family: "Poppins";
+}
+
+/* SEC 1*/
+.Section1 .container{
+  display: flex;
+  align-items: center;
+  /* taille maximale du container*/
+  max-width: 1500px;
+  margin-left: 80px;
+}
+
+.left h1{
+  /* 9em = taille de la police*/
+  font-size: 5em;
+  color: white;
+  text-shadow: 0px 0px 10px #fec675;
+}
+
+.left p{
+  color: antiquewhite;
+  max-width: 600px;
+/* font weight = épaisseur de la police*/
+  font-weight: bold;
+  font-family:"Poppins";
+  margin: 30px;
+
+}
+
+.left button{
+  width: 300px;
+  height: 65px;
+  /* border radius = arrondi du bouton*/
+  border-radius: 50px;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: #fec675;
+}
+
+/* NAVBAR*/
+
+.navbar{
+height: 100px;
+/* Largeur*/
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.navbar > .container{
+  width: 75%;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  /* prendre toute la place de la width*/
+  justify-content: space-evenly;
+
+}
+.navbar .container a{
+  color: white;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer{
+  width: 100%;
+  height: 20vh;
+  background-color: antiquewhite;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+footer > .left {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  
+}
+
+.left > a {
+  background-color: none;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.left h2{
+font-size: 2em;
+color: #fec675;
+}
+
+footer > .right{
+  width: 40%;
+  height: 100px;
+  width: 40%;
+  height: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.right h2{
+  font-size: 2em;
+  color:#fec675 ;
+}
+
+.right p{
+  background-color: none;
+  color: antiquewhite;
+}
+/* Section 2 */
+
+.Section2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Section2 .img{
+  filter: drop-shadow(0px 8px 10px rgba(254, 198, 117, 0.75));
+
+}
+
+.Section2 .title h4{
+    /* 9em = taille de la police*/
+    font-size: 1em;
+    color: white;
+    text-shadow: 0px 0px 10px #fec675;
+  }
+.Section2 .title h1{
+  font-size: 2em;
+  color: #fec675;
+
+}
+
+.Section2 .container{
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.Section2 .container p{
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Section2 .container .left{
+  text-align: right; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Section2 .container .left h2{
+  text-align: right;
+  color: white;
+  text-shadow: 0px 0px 10px #fec675;
+
+}
+
+.Section2 .container .left p{
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-direction: column;;
+}
+
+.Section2 .container .right{
+  text-align: left;
+  display: flex;
+  flex-direction: column; 
+}
+
+.Section2 .container .right h2{
+  text-align: right;
+  color: white;
+  text-shadow: 0px 0px 10px #fec675;
+
+}
+
+.card{
+  width: 40%;
+  border: solid 2px white;
+  border-radius: 10%;
+  padding: 5%;
+}
+
+.top{
+  width: 100%;
+}
+
+.description p{
+padding-top: 5%;
+color: antiquewhite;
+}

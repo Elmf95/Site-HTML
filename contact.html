@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title>Formulaire de Contact</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="navbar">
+            <div class="container">
+              <img src="/logo.png" />
+              <a href="index.html">ACCEUIL</a>
+              <a href="qui.html">QUI SOMMES-NOUS ?</a>
+              <a href="services.html">NOS SERVICES</a>
+              <a href="Contact.html">NOUS CONTACTER</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+<h2>Contactez-nous</h2>
+
+<form action="/envoyer.php" method="post">
+  <div class="form-group">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+  <button type="submit">Envoyer</button>
+</form>
+<footer>
+    <div class="left">
+      <h2>Menu</h2>
+      <a href="index.html">Acceuil</a>
+      <a href="qui.html">Qui sommes-nous ?</a>
+      <a href="services.html">Nos services</a>
+      <a href="contact.html">Nous contacter</a>
+    </div>
+    <div class="right">
+      <h2>A Propos de Notre Jeu</h2>
+      <p>
+        Explorez un monde fascinant et vibrant avec La Forge Mythique.
+        Plongez-vous dans un royaume d'action palpitante, de stratégie
+        captivante et d'émotions intenses. Téléchargez dès maintenant et
+        découvrez un gameplay innovant, des graphismes époustouflants et des
+        défis à couper le souffle.
+      </p>
+      <p>
+        Copyright La Forge Mythique; 2023 Site de Jeux Vidéos. Tous droits
+        réservés.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>

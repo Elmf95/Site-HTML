@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: goldenrod;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  p{
+    font-family: "Poppins";
+  }
+  /* FOOTER */
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  
+  footer > .left {
+    width: 40%;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+  }
+  
+  .left > a {
+    background-color: none;
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  
+  .left h2{
+  font-size: 2em;
+  color: #fec675;
+  }
+  
+  footer > .right{
+    width: 40%;
+    height: 100px;
+    width: 40%;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  
+  .right h2{
+    font-size: 2em;
+    color:#fec675 ;
+  }
+  
+  .right p{
+    background-color: none;
+    color: antiquewhite;
+  }
+
+  /* NAVBAR*/
+
+.navbar{
+    height: 100px;
+    /* Largeur*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    .navbar > .container{
+      width: 75%;
+      color: white;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      /* prendre toute la place de la width*/
+      justify-content: space-evenly;
+    
+    }
+    .navbar .container a{
+      color: white;
+      text-decoration: none;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      /* Styles pour le formulaire */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+      }
+      
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .form-group {
+        margin-bottom: 15px;
+      }
+      
+      label {
+        display: block;
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+      
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      button:hover {
+        background-color: #0056b3;
+      }
